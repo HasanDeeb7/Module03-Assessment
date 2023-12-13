@@ -1,0 +1,7 @@
+.articleCardsContainer {
+  display: flex;
+  margin-top: 5rem;
+  width: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

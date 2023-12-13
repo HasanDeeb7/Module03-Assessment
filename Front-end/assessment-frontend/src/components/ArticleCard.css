@@ -1,0 +1,45 @@
+.articleCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 400px;
+  background-color: rgb(236, 233, 229);
+  border-radius: 20px;
+  box-shadow: 13px 17px 29px -17px rgba(0, 0, 0, 0.66);
+  padding-bottom: 20px;
+}
+.articleCard > img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.categoryAuthorWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.articleCardDetails {
+  padding: 10px;
+}
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.button {
+  border: 1px solid transparent;
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button:hover {
+  border-color: darkblue;
+  color: darkblue;
+  background-color: transparent;
+}

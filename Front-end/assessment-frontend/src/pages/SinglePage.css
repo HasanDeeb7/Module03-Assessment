@@ -1,0 +1,18 @@
+.authorCategorySingle {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.singlePageBrief {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+.singlePageBrief > img {
+  width: 400px;
+}
+.singlePageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
